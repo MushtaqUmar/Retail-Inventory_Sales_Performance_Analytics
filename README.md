@@ -42,21 +42,20 @@ Leveraged AI tools like ChatGPT, DeepSeek, Claude, Gemini, and Copilot throughou
 ### Repository Structure
 
 ```
-Vendor-Performance-Analysis/
+Retail-Inventory_Sales_Performance_Analytics/
 │
-├── Data/                              # Raw CSV files
+├── Data/                              # Raw CSV files (not pushed here for large size)
 ├── logs/                              # ETL logs (Monitor ETL process for information, warning , error that helps in Debugging).
 ├── Scripts SQL_Python
     ├── ingestion_db.py                    # Python ETL script
     ├── get_vendors_final_summary.py       # script for final Summary Table for analysis and insights
-├── Notebooks
-    ├── vendor_performance_schema.sql      # SQL schema definition
-    ├── Exploratory Data Analysis.ipynb    # Python EDA notebook - on all company's raw csv data files)
-├── Vendor Performance Analysis.ipynb  # Additional analysis (EDA, cleaning, feature engineering, research questions & insights from vendors_final_summary)
-├── Dashboards
+├── Notebooks for Analysis
+    ├── EDA on Raw data    # Python EDA notebook - on all company's raw csv data files)
+    ├── EDA and Insights extraction on Summarised data     # Additional analysis (EDA, cleaning, feature engineering, research questions & insights from vendors_final_summary)
+├── BI Dashboard
     ├── Visualizing Insights.pbix          # Power BI dashboard file to visualize KPI's and insights.
-├── Final Reporting.pdf                # Final report with findings and recommendations
-├── .gitignore               # Avoid un-neccessary/restricted files and folders
+├── Stakeholder Reporting.pdf                # Final report with findings and recommendations
+├── .gitignore               # Avoid un-neccessary/restricted & very large files and folders
 └── README.md                          # Project overview and documentation (you're here!)
 ```
 <br>
